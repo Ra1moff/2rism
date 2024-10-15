@@ -1,0 +1,24 @@
+.activities {
+    padding-top: 120px;
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 64px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 150%;
+        color: var(--theme-body);
+    }
+
+    &__cards {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

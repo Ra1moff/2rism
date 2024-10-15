@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.container {
+    max-width: 1390px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--theme-primary-muted);
+    border-radius: 12px;
+    padding: 10px;
+    transition: 0.3s;
+    color: var(--theme-primary);
+
+    &:hover {
+        background: rgb(235, 222, 235);
+    }
+}

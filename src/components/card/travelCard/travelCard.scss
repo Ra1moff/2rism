@@ -1,0 +1,62 @@
+.travel__card {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    max-width: 664px;
+    width: 100%;
+
+    @media (width <= 1389px) {
+        flex-direction: column;
+    }
+
+    &-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        color: var(--theme-body);
+        padding-bottom: 77px;
+
+        @media (width <= 1389px) {
+            text-align: center;
+            padding: unset;
+        }
+    }
+
+    &-subtitle {
+        line-height: 150%;
+        color: var(--theme-body-muted);
+        padding-bottom: 75px;
+
+        @media (width <= 1389px) {
+            text-align: center;
+            padding: unset;
+        }
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media (width <= 1389px) {
+            align-items: center;
+            gap: 25px;
+        }
+    }
+
+    &-icons {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &-icon {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 12px;
+        line-height: 133%;
+        color: var(--theme-body-muted);
+        cursor: pointer;
+    }
+}
